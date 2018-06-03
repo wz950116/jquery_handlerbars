@@ -1,0 +1,72 @@
+.adv-fullscreen {}
+
+.duilian-left {
+  left: 0px;
+  top: 38px;
+  position: fixed;
+  z-index: 100;
+}
+
+.duilian-left img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.duilian-right {
+  right: 0px;
+  top: 38px;
+  position: fixed;
+  z-index: 100;
+}
+
+.duilian-right img {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.duilian-left .hide-duilian {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 14px;
+  width: 14px;
+  /*border-radius: 9px;*/
+  text-align: center;
+  line-height: 14px;
+  background: rgba(59, 58, 57, 0.51);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.duilian-right .hide-duilian {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 14px;
+  width: 14px;
+  /*border-radius: 9px;*/
+  text-align: center;
+  line-height: 14px;
+  background: rgba(59, 58, 57, 0.51);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.be-famous {
+  position: relative;
+}
+
+.be-famous li {
+  float: left;
+}
+
+.be-famous a {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: none;
+}
